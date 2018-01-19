@@ -40,7 +40,7 @@ var tjConfig = {
 	//name: JSON.stringify(robot_name),
 	//name: 'Bob',
 	name: 'positivo',
-        gender: 'female'
+    gender: 'female'
     },
     wave: {
         servoPin: 7 // corresponds to BCM 7 / physical PIN 26

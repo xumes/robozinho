@@ -44,7 +44,7 @@ const PORTUGUESE_PADDING = "Estou falando em português, por favor entenda a sen
 console.log("Using workspace ID "+WORKSPACEID);
 
 //these are the hardware capabilities that TJ needs for this recipe
-var hardware = ['microphone', 'speaker'];
+var hardware = ['microphone', 'speaker', 'camera'];
 
 //set up TJBot's configuration
 var tjConfig = {
@@ -52,7 +52,7 @@ var tjConfig = {
 			level: 'verbose'
 		},
 		robot: {        
-			name: 'fernanda',
+			name: 'maria',
 			gender: 'female'
 		},
 		wave: {
