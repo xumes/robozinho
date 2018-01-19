@@ -8,6 +8,28 @@ Some of TJBot's capabilities require specific [IBM Watson](https://www.ibm.com/w
 
 To use these services, you will need to specify credentials for each of the Watson services you are interested in using.
 
+# Execution of TJbot using dbpedia
+
+1 - Create the services Speech to text (SST), Text to Speech (TTS) , Natural Language Understanding (NLU) and Conversation WCS) into bluemix
+
+2 - Instalation of DBpedia workspace into Conversation Service
+
+import the following file into conversation service
+
+tjbot\recipes\conversation\workspace-TLC-DBpedia.json
+
+3 - Setup the Speech to text (SST), Text to Speech (TTS) , Natural Language Understanding (NLU) and Conversation
+
+you need to setup tjbot\recipes\conversation\config.js with credentials value (user, password) to access services created on step 1
+
+4 - Execution of DBpedia conversation in (Portuguese)
+
+cd tjbot\recipes\conversation
+
+sudo node conversation-dbpedia.js
+
+
+
 # Usage
 
 Install the library as follows.
