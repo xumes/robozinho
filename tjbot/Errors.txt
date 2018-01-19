@@ -1,0 +1,5 @@
+rror: the speech_to_text service returned an error. Error: Session timed out.
+    at emitError (/home/pi/tjbot/recipes/conversation/node_modules/watson-developer-cloud/speech-to-text/recognize_stream.js:145:13)
+    at W3CWebSocket.socket.onmessage (/home/pi/tjbot/recipes/conversation/node_modules/watson-developer-cloud/speech-to-text/recognize_stream.js:165:7)
+    at W3CWebSocket._dispatchEvent [as dispatchEvent] (/home/pi/tjbot/recipes/conversation/node_modules/yaeti/lib/EventTarget.js:107:17)
+    at W3CWebSocket.onMessage (/home/pi/tjbot/recipes/conversation/node_modules/websocket/lib/W3CWebSocket.js:234:14)

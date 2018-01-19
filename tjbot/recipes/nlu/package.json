@@ -1,0 +1,12 @@
+{
+  "name": "nlu-node",
+  "description": "nlu-node description",
+  "version": "1.0.0",
+  "main": "nlu.js",
+  "scripts": {
+    "start": "node nlu.js"
+  },
+  "dependencies": {
+    "watson-developer-cloud": "latest"
+  }
+}

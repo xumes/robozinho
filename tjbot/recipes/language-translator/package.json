@@ -1,0 +1,15 @@
+{
+  "name": "lt",
+  "version": "1.0.0",
+  "description": "Language Translator Piece for TjBot",
+  "main": "lt.js",
+  "scripts": {
+    "start": "node lt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcelo Mota Manhaes e Moreno Garcia",
+  "dependencies": {
+    "watson-developer-cloud": "latest"
+  },
+  "license": "Apache-2.0"
+}

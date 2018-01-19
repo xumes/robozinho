@@ -1,0 +1,14 @@
+{
+  "name": "dbpedia",
+  "description": "this module will work on dbpedia search",
+  "version": "1.0.0",
+  "main": "dbpedia.js",
+  "scripts": {
+    "start": "node dbpedia.js"
+  },
+  "dependencies": {
+    "watson-developer-cloud": "latest",
+    "request": "latest",
+    "iconv" : "^2.3.0"
+  }
+}
