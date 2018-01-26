@@ -1,5 +1,5 @@
 {
-  "name": "Maria ADA (Assistente Digital Autonoma",
+  "name": "robozinho",
   "description": "meu projeto TJBOT",
   "version": "0.0.1",
   "author": "Reginaldo Santos <reginaldosantos.br@gmail.com>",
@@ -7,10 +7,10 @@
     "url": "https://github.com/xumes/robozinho/issues"
   },
   "dependencies": {
+    "iconv": "^2.3.0",
+    "request": "^2.83.0",
     "tjbot": "latest",
-    "watson-developer-cloud": "latest",
-    "request": "latest",
-    "iconv" : "^2.3.0"
+    "watson-developer-cloud": "latest"
   },
   "main": "conversation.js",
   "homepage": "https://github.com/xumes/robozinho/tree/master/recipes/conversation",
@@ -23,7 +23,7 @@
     "url": "git@github.com:xumes/robozinho.git"
   },
   "scripts": {
-    "start": "node conversation.js",
+    "start": "node conversation-dbpedia.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

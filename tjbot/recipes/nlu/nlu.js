@@ -135,7 +135,7 @@ module.exports.keywordsText = keywordsText;
 var functions = ['concepts','entities','keywords'];
 
 if (process.argv.length < 6){
-	console.log("Usage node nlu <user> <pwd> <function> <text|url>");
+	console.log("Usage node nlu <user> <pwd> <function> <text|url>", process.argv.length );
 	//process.exit();
 }else{
 	var args = process.argv.slice(2);
